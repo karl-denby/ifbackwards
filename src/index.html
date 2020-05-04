@@ -2,18 +2,20 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>Hello World!</title>
+    <title>ifbackwards</title>
     <link rel="stylesheet" href="index.css">
-    <link
-    rel="stylesheet"
-    href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css"
-  />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css"/>
+    <script defer src="render.js"></script>
   </head>
   <body>
-    <h1>💖 ifbackwards 💖</h1>
-    <p>Remember F1 spelt backwards is IF - Murray Walker</p>
-    <p>This application aims to helps people write rich comments/replies/missives in Markdown using templates, screenshots, screen recordings.</p>
-    <p>Built with Electron.</p>
-    <p>process.platform</p>>
+    <h1 class="title">💖 ifbackwards 💖</h1>
+    <p class="notification">Remember F1 spelt backwards is IF - Murray Walker</p>
+    <p>This application aims to helps people write rich comments/replies/missives in Markdown using templates, screenshots, screen recordings. Built with Electron.</p>
+    <p class="box">
+      Platform is: <b><script>document.write(process.platform)</script></b>
+    </p>
+
+    <button id="clickMe" class="button is-primary is-rounded" type="button">Click Me!</button>
+
   </body>
 </html>
